@@ -180,6 +180,12 @@ body { background: var(--background); color: var(--foreground); overflow: hidden
 
 .map-judet { fill: oklch(0.22 0.01 260); stroke: oklch(1 0 0 / 14%); stroke-width: 0.6; transition: fill 250ms ease, opacity 250ms ease; cursor: pointer; }
 .map-judet:hover { fill: oklch(0.28 0.012 260); }
+.map-judet[data-hover="true"] {
+    fill: oklch(0.32 0.03 200);
+    stroke: oklch(0.86 0.2 165 / 70%);
+    stroke-width: 1.2;
+    filter: drop-shadow(0 0 6px oklch(0.86 0.2 165 / 45%));
+}
 .map-judet[data-active="true"] { fill: oklch(0.26 0.012 260); stroke: oklch(1 0 0 / 40%); }
 .map-judet[data-dim="true"] { fill: oklch(0.16 0.006 260); stroke: oklch(1 0 0 / 5%); opacity: 0.55; pointer-events: none; }
 

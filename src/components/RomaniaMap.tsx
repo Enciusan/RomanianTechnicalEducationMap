@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
+import { AnimatePresence, motion, useMotionValue, useSpring, useTransform } from 'motion/react'
 import { geoMercator, geoPath } from 'd3-geo'
 import type { FeatureCollection, Geometry } from 'geojson'
 import geo from '@/data/judete.json'
-import { CATEGORY, type Entity } from '@/lib/entities'
+import { CATEGORIES, CATEGORY, type Entity } from '@/lib/entities'
 
 const W = 1000
 const H = 640
@@ -21,6 +22,9 @@ const SHAPES = FC.features.map((f) => ({
   centroid: path.centroid(f),
   bounds: path.bounds(f),
 }))
+
+// Nudge labels for județe whose centroid collides with a neighbour (Ilfov wraps București).
+const LABEL_OFFSET: Record<string, [number, number]> = { B: [0, 2], IF: [30, -22] }
 
 function viewFor(code: string | null) {
   if (!code) return { k: 1, x: 0, y: 0 }
@@ -59,21 +63,32 @@ function layout(entities: Entity[]) {
 interface Props {
   entities: Entity[]
   counts: Map<string, number>
+  catCounts: Map<string, Partial<Record<Entity['category'], number>>>
   judet: string | null
   selectedId: string | null
   onJudet: (code: string | null) => void
   onEntity: (e: Entity) => void
 }
 
-export function RomaniaMap({ entities, counts, judet, selectedId, onJudet, onEntity }: Props) {
+export function RomaniaMap({ entities, counts, catCounts, judet, selectedId, onJudet, onEntity }: Props) {
   const [hover, setHover] = useState<string | null>(null)
+  const [hoverJudet, setHoverJudet] = useState<{ code: string; x: number; y: number } | null>(null)
+  // Aceternity-style: tooltip tilts/slides with cursor position inside the hovered shape.
+  const mx = useMotionValue(0.5)
+  const spring = { stiffness: 120, damping: 14 }
+  const rotate = useSpring(useTransform(mx, [0, 1], [-12, 12]), spring)
+  const translateX = useSpring(useTransform(mx, [0, 1], [-28, 28]), spring)
   const view = useMemo(() => viewFor(judet), [judet])
   const pts = useMemo(() => (judet ? layout(entities.filter((e) => e.judet === judet)) : []), [entities, judet])
   const max = Math.max(1, ...counts.values())
   const inv = 1 / view.k
   const hovered = hover ? pts.find((p) => p.e.id === hover) : undefined
 
+  const hj = hoverJudet ? SHAPES.find((s) => s.code === hoverJudet.code) : undefined
+  const hjCats = hoverJudet ? catCounts.get(hoverJudet.code) ?? {} : {}
+
   return (
+    <div className="relative h-full w-full">
     <svg
       viewBox={`0 0 ${W} ${H}`}
       className="h-full w-full select-none"
@@ -99,29 +114,39 @@ export function RomaniaMap({ entities, counts, judet, selectedId, onJudet, onEnt
               style={heat ? { fill: heat } : undefined}
               data-active={judet === s.code}
               data-dim={judet != null && judet !== s.code}
-              onClick={(ev) => { ev.stopPropagation(); onJudet(judet === s.code ? null : s.code) }}
-            >
-              <title>{`${s.name} · ${n}`}</title>
-            </path>
+              data-hover={hoverJudet?.code === s.code}
+              onMouseEnter={(ev) => {
+                if (judet) return
+                const r = (ev.currentTarget as SVGPathElement).getBoundingClientRect()
+                setHoverJudet({ code: s.code, x: r.left + r.width / 2, y: r.top })
+              }}
+              onMouseMove={(ev) => {
+                if (judet) return
+                const r = (ev.currentTarget as SVGPathElement).getBoundingClientRect()
+                mx.set(r.width ? (ev.clientX - r.left) / r.width : 0.5)
+              }}
+              onMouseLeave={() => setHoverJudet(null)}
+              onClick={(ev) => { ev.stopPropagation(); setHoverJudet(null); onJudet(judet === s.code ? null : s.code) }}
+            />
           )
         })}
 
         {!judet &&
           SHAPES.map((s) => {
             const n = counts.get(s.code) ?? 0
-            if (!n) return null
+            const [ox, oy] = LABEL_OFFSET[s.code] ?? [0, 0]
+            const x = s.centroid[0] + ox, y = s.centroid[1] + oy
             return (
-              <text
-                key={`t-${s.code}`}
-                x={s.centroid[0]}
-                y={s.centroid[1]}
-                textAnchor="middle"
-                dominantBaseline="central"
-                className="tabular pointer-events-none fill-white/70"
-                style={{ fontSize: 11, fontWeight: 500, letterSpacing: '0.02em' }}
-              >
-                {n}
-              </text>
+              <g key={`t-${s.code}`} className="pointer-events-none" style={{ opacity: n ? 1 : 0.4 }}>
+                <text x={x} y={y - 6} textAnchor="middle" dominantBaseline="central" className="fill-white/55"
+                  style={{ fontSize: 7.5, fontWeight: 500, letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+                  {s.name}
+                </text>
+                <text x={x} y={y + 6} textAnchor="middle" dominantBaseline="central" className="tabular fill-white/85"
+                  style={{ fontSize: 12, fontWeight: 600 }}>
+                  {n}
+                </text>
+              </g>
             )
           })}
 
@@ -158,5 +183,34 @@ export function RomaniaMap({ entities, counts, judet, selectedId, onJudet, onEnt
         )}
       </g>
     </svg>
+
+    <AnimatePresence>
+      {hoverJudet && hj && !judet && (
+        <motion.div
+          key={hj.code}
+          initial={{ opacity: 0, y: 12, scale: 0.6 }}
+          animate={{ opacity: 1, y: 0, scale: 1, transition: { type: 'spring', stiffness: 260, damping: 12 } }}
+          exit={{ opacity: 0, y: 12, scale: 0.6, transition: { duration: 0.15 } }}
+          style={{ translateX, rotate, left: hoverJudet.x, top: hoverJudet.y - 8 }}
+          className="pointer-events-none fixed z-30"
+        >
+          <div className="relative flex w-max max-w-[220px] -translate-x-1/2 -translate-y-full flex-col items-center rounded-xl bg-black/90 px-3.5 py-2 text-center shadow-2xl ring-1 ring-white/10">
+            <div className="absolute inset-x-8 -bottom-px h-px bg-gradient-to-r from-transparent via-emerald-400 to-transparent" />
+            <div className="absolute inset-x-12 -bottom-px h-px bg-gradient-to-r from-transparent via-sky-400 to-transparent" />
+            <div className="text-[13px] font-semibold tracking-tight text-white">{hj.name}</div>
+            <div className="tabular text-[11px] text-white/60">{counts.get(hj.code) ?? 0} entități</div>
+            <div className="mt-1 flex flex-wrap justify-center gap-x-2 gap-y-0.5">
+              {CATEGORIES.filter((c) => hjCats[c]).map((c) => (
+                <span key={c} className="tabular flex items-center gap-1 text-[10px] text-white/75">
+                  <span className="size-1.5 rounded-full" style={{ background: CATEGORY[c].color }} />
+                  {hjCats[c]} {CATEGORY[c].short}
+                </span>
+              ))}
+            </div>
+          </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+    </div>
   )
 }

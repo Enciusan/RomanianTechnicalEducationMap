@@ -24,6 +24,16 @@ export default function App() {
     return m
   }, [filtered])
 
+  const catCounts = useMemo(() => {
+    const m = new Map<string, Partial<Record<Category, number>>>()
+    for (const e of filtered) {
+      const c = m.get(e.judet) ?? {}
+      c[e.category] = (c[e.category] ?? 0) + 1
+      m.set(e.judet, c)
+    }
+    return m
+  }, [filtered])
+
   const scoped = useMemo(() => (judet ? filtered.filter((e) => e.judet === judet) : filtered), [filtered, judet])
 
   useEffect(() => {
@@ -50,7 +60,7 @@ export default function App() {
     <main className="relative h-dvh w-full overflow-hidden bg-background">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,oklch(0.2_0.02_280)_0%,transparent_60%)]" aria-hidden />
       <div className="absolute inset-0 pt-28 pb-4 pl-2 md:pr-[360px] lg:pr-[400px]">
-        <RomaniaMap entities={filtered} counts={counts} judet={judet} selectedId={selected?.id ?? null} onJudet={(c) => { setJudet(c); setSelected(null) }} onEntity={openEntity} />
+        <RomaniaMap entities={filtered} counts={counts} catCounts={catCounts} judet={judet} selectedId={selected?.id ?? null} onJudet={(c) => { setJudet(c); setSelected(null) }} onEntity={openEntity} />
       </div>
       <GlassBar query={query} onQuery={setQuery} cats={cats} onToggleCat={toggleCat} judet={judet} onJudet={(c) => { setJudet(c); setSelected(null) }} total={scoped.length} />
       <EntityList entities={scoped} judet={judet} selectedId={selected?.id ?? null} onEntity={openEntity} />

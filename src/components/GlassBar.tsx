@@ -13,7 +13,7 @@ interface Props {
 
 export function GlassBar({ query, onQuery, cats, onToggleCat, judet, onJudet, total }: Props) {
   return (
-    <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex flex-col gap-2 p-3 sm:p-4">
+    <header className="pointer-events-none absolute top-0 left-0 right-0 z-20 flex flex-col gap-2 p-3 sm:p-4 md:right-[360px] lg:right-[400px]">
       <div className="pointer-events-auto glass flex items-center gap-2 rounded-2xl px-2 py-1.5">
         {judet ? (
           <button
