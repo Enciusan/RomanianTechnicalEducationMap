@@ -16,6 +16,10 @@ const CITY: Record<string, string> = {
   petrosani: 'HD', resita: 'CS', 'baia mare': 'MM', 'targu jiu': 'GJ', lugoj: 'TM', cernica: 'IF',
 }
 
+// No CS relevance: theology, arts, music, theatre, film, sports, medicine, pharmacy, architecture, agri/vet.
+const EXCLUDE_RE = /teolog|\barte\b|\barta\b|muzic|teatr|cinematograf|educatie fizica|\bsport|medicin|farmac|arhitectur|veterinar|agricol|agronom|stiintele vietii/
+const LIQUIDATION_RE = /lichidare/i
+
 function cityOf(name: string): { city?: string; judet?: string } {
   const n = norm(name)
   for (const [c, j] of Object.entries(CITY)) if (n.endsWith(c) || n.includes(` din ${c}`)) return { city: c, judet: j }
@@ -44,9 +48,14 @@ export async function scrapeUniversitati(): Promise<Entity[]> {
     const td = $(tr).find('td')
     if (td.length < 2) return
     const code = td.eq(0).text().trim().replace(/\.$/, '')
-    const name = td.eq(1).text().replace(/\s+/g, ' ').trim()
+    const raw = td.eq(1).text().replace(/\s+/g, ' ').trim()
     const url = td.eq(1).find('a').attr('href')?.trim()
-    if (!name || !SRC.codeRe.test(code)) return
+    if (!raw || !SRC.codeRe.test(code)) return
+    if (EXCLUDE_RE.test(norm(raw)) || LIQUIDATION_RE.test(raw)) return
+    // "NAME (nota)" / "NAME: nota" / "NAME Specializările…" -> split trailing note
+    const m = raw.match(/^(.+?)(?:\s*\((.+)\)|:\s*(.+)|\s+(Specializ.+))$/)
+    const name = m ? m[1].trim() : raw
+    const note = m ? (m[2] ?? m[3] ?? m[4])?.trim() : undefined
     const { city, judet } = cityOf(name)
     if (!judet) unmatched.push(name)
     const r = rankOf(name)
@@ -60,13 +69,14 @@ export async function scrapeUniversitati(): Promise<Entity[]> {
       url,
       ...r,
       tags: [SRC.tag, ...(r.rank ? ['metaranking-2025'] : [])],
+      notes: note,
       source_url: SRC.url,
       scraped_at,
     })
   })
   }
   if (unmatched.length) console.warn(`[univ] no judet for ${unmatched.length}:`, unmatched.join(' | '))
-  const missingRank = meta.rows.filter((m) => !out.some((e) => e.rank === m.rank)).map((m) => m.name)
+  const missingRank = meta.rows.filter((m) => !EXCLUDE_RE.test(norm(m.name)) && !out.some((e) => e.rank === m.rank)).map((m) => m.name)
   if (missingRank.length) console.warn(`[univ] metaranking rows not matched:`, missingRank.join(' | '))
   console.log(`[univ] ${out.length} universities, ${out.filter((e) => e.rank).length} ranked`)
   return out
