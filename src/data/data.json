@@ -1,1 +1,3498 @@
-[]
+[
+  {
+    "id": "ftc-19085",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "IDeaL_Electronics #19085",
+    "judet": "AB",
+    "city": "Cugir",
+    "url": "https://ideal-electronics.ro/",
+    "email": "ideal@idl-cugir.ro",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Liceul Tehnologic Ion D. Lazarescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17844",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RUBIX #17844",
+    "judet": "AB",
+    "city": "Blaj",
+    "url": "https://rubix.imclain.ro",
+    "email": "rubixrobots@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN Inochentie Micu Clain",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-27846",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Star_B1T0 #27846",
+    "judet": "AB",
+    "city": "Sebeș",
+    "url": "https://strixx93.github.io/NewRobo/",
+    "email": "star.b1t0.robotics@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național „Lucian Blaga”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-14278",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Xeo #14278",
+    "judet": "AB",
+    "city": "Alba Iulia",
+    "url": "https://www.xeoalbaiulia.ro",
+    "email": "xeoalbaiulia@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Colegiul National Horea Closca si Crisan",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-18160",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "4D-ROBOTICS #18160",
+    "judet": "AG",
+    "city": "Pitești",
+    "url": "https://www.facebook.com/AsociatiaDeInitiereInRoboticaSiIT",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Alexandru Odobescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-25538",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ARRA #25538",
+    "judet": "AG",
+    "city": "Pitesti",
+    "url": "https://arra-ftc.ro/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Economic Maria Teiuleanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19176",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Broboți #19176",
+    "judet": "AG",
+    "city": "Pitești",
+    "url": "https://www.facebook.com/broboti.ftc/",
+    "email": "asociatiabroboti.contact@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul Național Ion C. Brătianu Pitești",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-28260",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Coral Tech #28260",
+    "judet": "AG",
+    "city": "Pitesti",
+    "url": "https://www.facebook.com/profile.php?id=61568609567488",
+    "email": "coraltechftc@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32715",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CYBERMINDS #32715",
+    "judet": "AG",
+    "city": "Campulung",
+    "url": "https://cyberminds-ltdb.netlify.app",
+    "email": "cybermindsltdb@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Teoretic Dan Barbilian",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24530",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ELECTROb0tics #24530",
+    "judet": "AG",
+    "city": "Curtea de Argeș",
+    "url": "https://www.instagram.com/electrob0tics?igsh=NDQ5eDR1NDFraWti&utm_source=qr",
+    "email": "liceultehnologici.r@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: LICEUL TEHNOLOGIC FERDINAND I",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19049",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "High Five #19049",
+    "judet": "AG",
+    "city": "Pitești",
+    "url": "https://highfive.ro",
+    "email": "ftc@highfive.ro",
+    "tags": [
+      "ftc",
+      "rookie-2020"
+    ],
+    "notes": "Școala: Colegiul Național „Ion C. Brătianu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23203",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Light Bulb Robotics #23203",
+    "judet": "AG",
+    "city": "Pitesti",
+    "url": "https://aso-irobo-it.ro/",
+    "email": "contact@aso-irobo-it.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Colegiul National Alexandru Odobescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-27835",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboBarbu #27835",
+    "judet": "AG",
+    "city": "Pitești",
+    "url": "https://www.facebook.com/share/1HywN1XXhg/",
+    "email": "robobarbu@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic „Ion Barbu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19128",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboDac Dacia #19128",
+    "judet": "AG",
+    "city": "Pitesti",
+    "url": "https://www.facebook.com/?locale=ro_RO",
+    "email": "robodac.dacia@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Liceul Tehnologic Dacia",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24909",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "StarLight #24909",
+    "judet": "AG",
+    "city": "Pitesti",
+    "url": "https://tinyurl.com/StarLight24909",
+    "email": "starlight24909@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Alexandru Odobescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19151",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TECHNO-MAISTER #19151",
+    "judet": "AG",
+    "city": "Mioveni",
+    "url": "https://www.facebook.com/technomaister/",
+    "email": "technomaister19151@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Liceul Teoretic Iulia Zamfirescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32801",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TechnoTeam #32801",
+    "judet": "AG",
+    "city": "Mioveni",
+    "url": "https://www.facebook.com/share/17Pi1RMdS9/",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Tehnologic Constructii de Masini Mioveni",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-15972",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TehnoZ #15972",
+    "judet": "AG",
+    "city": "Pitești",
+    "url": "www.tehnoz.com",
+    "email": "contact@tehnoz.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național „Zinca Golescu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19116",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "VV ROBOTS #19116",
+    "judet": "AG",
+    "city": "Curtea de Argeș",
+    "url": "https://vvrobots.ro/",
+    "email": "contact@vvrobots.ro",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul Național Vlaicu Vodă",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-16166",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "WATT's UP #16166",
+    "judet": "AG",
+    "city": "Campulung Arges",
+    "url": "https://www.wattsup.ro/",
+    "email": "team@wattsup.ro",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: CN Dinicu Golescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32169",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Arbotix #32169",
+    "judet": "AR",
+    "city": "Arad",
+    "url": "https://www.facebook.com/share/1BiHbbsc9P/",
+    "email": "arbotix08@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Tehnologic 'Regina Maria' Arad",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20965",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "BIT-MO #20965",
+    "judet": "AR",
+    "city": "Arad",
+    "url": "https://bit-mo.ro/",
+    "email": "bitmo.robotics.2023@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2021"
+    ],
+    "notes": "Școala: C.N. „Preparandia-Dimitrie Țichindeal” Arad",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17713",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Delta Force #17713",
+    "judet": "AR",
+    "city": "Arad",
+    "url": "https://www.facebook.com/DeltaForceFTC/?locale=ro_RO",
+    "email": "deltaforcerobotics@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Liceul National de Informatica Arad",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20912",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Harambe Inc. #20912",
+    "judet": "AR",
+    "city": "Arad",
+    "url": "https://www.facebook.com/harambecartel/?locale=ro_RO",
+    "email": "harambecartel2019@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul National Moise Nicoara",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19093",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Infinity Bolts #19093",
+    "judet": "AR",
+    "city": "Arad",
+    "url": "https://www.facebook.com/InfinityBolts/",
+    "email": "infinitybolts6@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul National de Informatica Arad",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19095",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Wire Knights #19095",
+    "judet": "AR",
+    "city": "Arad",
+    "url": "https://www.facebook.com/share/14Hq4Sy4D6r/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național  ”Vasile Goldis”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20691",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Andromeda #20691",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://andromeda.isb.ro/",
+    "email": "andromeda@isb.ro",
+    "tags": [
+      "ftc",
+      "rookie-2021"
+    ],
+    "notes": "Școala: International School of Bucharest",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24964",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "AstraDynamiX #24964",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/profile.php?id=61568529476012",
+    "email": "astradynamix@lt-seb.ro",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic Scoala Europeana",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24155",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "BlueSpace #24155",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/profile.php?id=61551804456818",
+    "email": "bluespace.cnec@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Elena Cuza",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19075",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Clockworks #19075",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://teamclockworks.ro/",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN Gheorghe Sincai",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-27247",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "DanteStars #27247",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://dantestars.ro/",
+    "email": "contact.dantestars@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic Dante Alighieri",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-15991",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "GAMMA #15991",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/Gamma-by-Sava-100063611679152/",
+    "email": "gammabysava@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul National Sfantul Sava",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19099",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "H-tech #19099",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://m.facebook.com/100090453770227/",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN Ion Creanga",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23473",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Helios Robotics #23473",
+    "judet": "B",
+    "city": "București",
+    "url": "https://www.instagram.com/heliosrobotics?igsh=MXF4NTY1eWw4MGlsbA==",
+    "email": "helios.robotics.team@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Liceul Teoretic Marin Preda",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20925",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "HyperCube #20925",
+    "judet": "B",
+    "city": "Bucuresti",
+    "tags": [
+      "ftc",
+      "rookie-2021"
+    ],
+    "notes": "Școala: Complexul Educational Laude-Reut",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17624",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "IGNITE. #17624",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/igniteRO114",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: C.N. MIHAI VITEAZUL",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-25145",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ILC ROBOTIX #25145",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/profile.php?id=61575037753522",
+    "email": "ilcrobotix07@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Ion Luca Caragiale Bucuresti",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21050",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "MasterMinds #21050",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/share/14NebJy5Qqq/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul National Cantemir Voda",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19054",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "NeuroBotix #19054",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/neurobotix/",
+    "email": "neurobotix@cnmv.ro",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul National Mihai Viteazul",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32744",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "NeuroX #32744",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/profile.php?id=61581580165808",
+    "email": "neurox.cuza@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Teoretic Alexandru Ioan Cuza",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-14270",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Quantum Robotics #14270",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/QuantumRoboticsFTC",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic International de Informatica Bucuresti",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-14277",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "QUBE. #14277",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/qube14277",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: C.N. MIHAI VITEAZUL",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22226",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Renaissance Robotics #22226",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.instagram.com/rns.robotics/?next=%2F",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Ion Neculce",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19117",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Robo-Sapiens #19117",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.robosapiens.ro/",
+    "email": "robosapienscnshb@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: CN Spiru Haret",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-15989",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboTitans #15989",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/SavaRoboTitans/",
+    "email": "robotitans15@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul National Sfantul Sava",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-34059",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Rosetti Robotics #34059",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.rosetti-robotics.com/",
+    "email": "admin@rosetti-robotics.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Teoretic C.A. Rosetti",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24345",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "SPARKTECH #24345",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "www.sparktech24345.ro",
+    "email": "sparktech24345@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National de Informatica ”Tudor Vianu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19055",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TITANS #19055",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "www.titanslzr.ro",
+    "email": "team.titans@cnlazar.ro",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național GHEORGHE LAZAR",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-26075",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Vampire Robotics #26075",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://www.facebook.com/share/1EUU5segJx/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național Tudor Vladimirescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21476",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ViCyber #21476",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://vicyber.ro",
+    "email": "contact@vicyber.ro",
+    "tags": [
+      "ftc",
+      "rookie-2022"
+    ],
+    "notes": "Școala: CNITV",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19084",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Zenith #19084",
+    "judet": "B",
+    "city": "Bucuresti",
+    "url": "https://zenith.moisil.ro/",
+    "email": "zenith.cngm@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2020"
+    ],
+    "notes": "Școala: Colegiul Național „Grigore Moisil”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24308",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Bright Cluster #24308",
+    "judet": "BC",
+    "city": "Bacau",
+    "url": "https://www.facebook.com/share/17iRRKe7ux/",
+    "email": "brightcluster.ftc@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Colegiul National Vasile Alecsandri",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19071",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Smart Cluster #19071",
+    "judet": "BC",
+    "city": "Bacau",
+    "url": "https://smart-cluster.org/",
+    "email": "smartclusterorg@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2020"
+    ],
+    "notes": "Școala: Colegiul National",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20954",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ȘTIM DC #20954",
+    "judet": "BC",
+    "city": "Onesti",
+    "url": "https://stimdc.dcantemir.ro/",
+    "email": "clubulstimdc@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național „Dimitrie Cantemir”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19058",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Modus Vivendi #19058",
+    "judet": "BH",
+    "city": "Oradea",
+    "url": "https://www.facebook.com/p/RO061-Modus-Vivendi-100057416260341/",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Colegiul Național ”Mihai Eminescu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19242",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ROBOPEDA #19242",
+    "judet": "BH",
+    "city": "Beius",
+    "url": "https://www.facebook.com/share/17DVCBFpuV/",
+    "email": "robo.peda2019@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Lic.Voc.Ped.Nicolae Bolcas",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21996",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "AtomicBots #21996",
+    "judet": "BN",
+    "city": "Bistrița",
+    "url": "https://atomicbots.cnam.ro/",
+    "email": "atomicbots@cnam.ro",
+    "tags": [
+      "ftc",
+      "rookie-2022"
+    ],
+    "notes": "Școala: Colegiul Național Andrei Mureșanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17965",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Bolts-and-Gears #17965",
+    "judet": "BN",
+    "city": "Bistrita",
+    "url": "https://www.facebook.com/boltsngears/",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul National Liviu Rebreanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-15965",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "EsentzaRobotics #15965",
+    "judet": "BN",
+    "city": "Beclean",
+    "url": "https://www.facebook.com/share/1ExA9Uq3fp/?mibextid=wwXlfr",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Petru Rares",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19119",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "InfotronX #19119",
+    "judet": "BN",
+    "city": "Bistrita",
+    "url": "https://itx.infoel.ro/",
+    "email": "infotronx@infoel.ro",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul Tehnic INFOEL",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-18026",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "SGBots #18026",
+    "judet": "BN",
+    "city": "Sângeorz-Băi",
+    "url": "https://www.facebook.com/profile.php?id=100038756511001",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: LICEUL TEORETIC \"SOLOMON HALIȚĂ\"",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17860",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "HELIX #17860",
+    "judet": "BR",
+    "city": "Braila",
+    "url": "https://www.facebook.com/share/1A6P1Yw7cq/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: ANBPR Fil.Braila",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19143",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "HEX #19143",
+    "judet": "BR",
+    "city": "Braila",
+    "url": "https://www.facebook.com/share/19VmjJzUXB/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: ANBPR BRAILA",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24032",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Kodikas Robotics #24032",
+    "judet": "BR",
+    "city": "Braila",
+    "url": "https://www.facebook.com/kodikas.robotics/",
+    "email": "team_kodikas@yahoo.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Centrul Județean de Excelență Brăila",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19134",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Leaf Robotics #19134",
+    "judet": "BR",
+    "city": "Brăila",
+    "url": "https://www.facebook.com/profile.php?id=61579734999672",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic \"Panait Cerna\"",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21088",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Momentum #21088",
+    "judet": "BR",
+    "city": "Brăila",
+    "url": "https://www.facebook.com/share/19jqzDG3HQ/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național Nicolae Iorga",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-99996",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "STEEL SPARKS #99996",
+    "judet": "BR",
+    "city": "Braila",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Pedagogic Dumitru Panaitescu Perpessicius",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21087",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Velocity #21087",
+    "judet": "BR",
+    "city": "Braila",
+    "url": "https://cngmm.ro/velocity",
+    "email": "robotica.murgoci@cngmm.ro",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Colegiul National Gheorghe Munteanu Murgoci",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21097",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Dragonfly #21097",
+    "judet": "BT",
+    "city": "Dorohoi",
+    "url": "https://www.instagram.com/dragonfly.cngg",
+    "email": "dragonfly.cngg@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul National Grigore Ghica",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24928",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "HYPERION #24928",
+    "judet": "BT",
+    "city": "Botoșani",
+    "url": "https://www.facebook.com/hyperion.cnme",
+    "email": "hyperion@lme.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Colegiul Național Mihai Eminescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19083",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "NORTH EAST DYNAMICS #19083",
+    "judet": "BT",
+    "city": "Dorohoi",
+    "url": "https://www.instagram.com/northeastdynamics/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Regina Maria",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19103",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "KronBOT #19103",
+    "judet": "BV",
+    "city": "Brașov",
+    "url": "https://www.facebook.com/KronBOT/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național de Informatică \"Grigore Moisil\"",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19082",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboAS #19082",
+    "judet": "BV",
+    "city": "Brasov",
+    "url": "https://roboas.netlify.app/",
+    "email": "roboas@saguna.ro",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național „Andrei Șaguna”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19061",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Boogeybots #19061",
+    "judet": "BZ",
+    "city": "Ramnicu Sarat",
+    "url": "https://m.facebook.com/BoogeyBots.team/",
+    "email": "boogeybots@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN Alexandru Vlahuța",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20265",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Heart Of Robots #20265",
+    "judet": "BZ",
+    "city": "Buzau",
+    "url": "https://www.heartofrobots.ro/",
+    "email": "heart_of_robots@bphasdeu.ro",
+    "tags": [
+      "ftc",
+      "rookie-2021"
+    ],
+    "notes": "Școala: Colegiul National B.P. Hasdeu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19053",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "HOMOSAPIENS #19053",
+    "judet": "BZ",
+    "city": "Buzau",
+    "url": "https://www.facebook.com/share/15AJMFre1Gr/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN B.P. Hasdeu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32868",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "LittleHearts #32868",
+    "judet": "BZ",
+    "city": "Buzau",
+    "url": "https://www.facebook.com/Heart.of.RoBots1",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National B.P. Hasdeu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19068",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ABSO-Tech #19068",
+    "judet": "CJ",
+    "city": "Gherla",
+    "url": "https://www.facebook.com/share/17VKztJ2N2/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: LICEUL TEORETIC PETRU MAIOR",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22044",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ACES #22044",
+    "judet": "CJ",
+    "city": "Cluj Napoca",
+    "url": "https://www.facebook.com/acesrobotics.cj/",
+    "tags": [
+      "ftc",
+      "rookie-2022"
+    ],
+    "notes": "Școala: Liceul Teoretic Lucian Blaga",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24033",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Alphatronic #24033",
+    "judet": "CJ",
+    "city": "Cluj Napoca",
+    "url": "https://www.alphatronic.ro/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Transylvania College | The Cambridge International School in Cluj",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19104",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CyberPunkRobotics #19104",
+    "judet": "CJ",
+    "city": "Turda",
+    "url": "https://www.facebook.com/cyberpunkrobotics/",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul National “Mihai Viteazul”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19074",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Extropy Robotics #19074",
+    "judet": "CJ",
+    "city": "Câmpia Turzii",
+    "url": "https://www.facebook.com/share/1CJU3qEr3m/",
+    "email": "extropy.robotics.ro168@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Liceul Teoretic Pavel Dan",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21033",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Hype #21033",
+    "judet": "CJ",
+    "city": "Cluj Napoca",
+    "url": "https://hyperobotics.ame.ro",
+    "email": "hype.ltnb@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Liceul Teoretic Nicolae Balcescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19079",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Phoenix #19079",
+    "judet": "CJ",
+    "city": "Cluj Napoca",
+    "url": "https://www.facebook.com/PhoenixRO026/",
+    "email": "phoenix.cluj@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Liceul Teoretic Avram Iancu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19056",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "PrimeTech #19056",
+    "judet": "CJ",
+    "city": "Cluj Napoca",
+    "url": "https://primetechrobotics.com/",
+    "email": "primetechro025@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Liceul de Informatica Tiberiu Popoviciu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19102",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Samca #19102",
+    "judet": "CJ",
+    "city": "Cluj Napoca",
+    "url": "https://www.facebook.com/people/Samca-Robotics/61581300670011/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național „Emil Racoviță”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19052",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Trojan.EXE #19052",
+    "judet": "CJ",
+    "city": "Gherla",
+    "url": "www.facebook.com/trojanexe13",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Liceul Teoretic ,,Ana Ipatescu” Gherla",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17873",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Vectron Robotics #17873",
+    "judet": "CJ",
+    "city": "Dej",
+    "url": "https://www.facebook.com/vectronrobotics",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național „Andrei Mureșanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-27850",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "0x0 Squad #27850",
+    "judet": "CL",
+    "city": "Calarasi",
+    "url": "https://www.0x0squad.com/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic Mihai Eminescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19096",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Danube Robotics #19096",
+    "judet": "CL",
+    "city": "Calarasi",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: CN Barbu Stirbei",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24374",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "A.S.C.E.N.D. #24374",
+    "judet": "CT",
+    "city": "Constanta",
+    "url": "https://instagram.com/ascend_ct",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic International de Informatica Constanta",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-31977",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Anghel Tech #31977",
+    "judet": "CT",
+    "city": "Cernavoda",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic ”Anghel Saligny”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19064",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "DRAGONIC-FORCE #19064",
+    "judet": "CT",
+    "city": "Medgidia",
+    "url": "https://dragonicforce.ro",
+    "email": "dragonicforceltnb1@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: LICEUL TEORETIC NICOLAE BALCESCU",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-99994",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboMind #99994",
+    "judet": "CT",
+    "city": "Cernavodă",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Teoretic ,,Anghel Saligny\"",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19062",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Phantom Robotics #19062",
+    "judet": "DB",
+    "city": "Târgoviște",
+    "url": "https://www.facebook.com/ftc.ro045",
+    "email": "phantomtgv@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național Constantin Carabella",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-99998",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RainuTech #99998",
+    "judet": "DB",
+    "city": "Fieni",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Aurel Rainu Fieni",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-25352",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "SCHWEFELROBOT #25352",
+    "judet": "DB",
+    "city": "Pucioasa",
+    "url": "https://schwefel.neocities.org/",
+    "email": "schwefelcnnt@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: CNNT",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21071",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "SkyLine #21071",
+    "judet": "DB",
+    "city": "Târgoviște",
+    "url": "https://www.facebook.com/profile.php?id=100063606200047",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național  „Ienăchiță Văcărescu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19063",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Under Construction #19063",
+    "judet": "DB",
+    "city": "Târgoviște",
+    "url": "https://www.facebook.com/FTC.RO092/",
+    "email": "ftcunderconstruction@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național Constantin Carabella",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19081",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Bots' Brain #19081",
+    "judet": "DJ",
+    "city": "Calafat",
+    "url": "https://www.facebook.com/share/1DAFZfnLrQ/",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Liceul Teoretic Independenta Calafat",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19109",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RaSky #19109",
+    "judet": "DJ",
+    "city": "Craiova",
+    "url": "https://rasky.ro",
+    "email": "rasky.ro122@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN Elena Cuza",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19076",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboticsTrav #19076",
+    "judet": "DJ",
+    "city": "Craiova",
+    "url": "https://www.facebook.com/RoboticsTrav",
+    "email": "roboticstrav19076@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Liceul Traian Vuia",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-12560",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Soft Hoarders #12560",
+    "judet": "DJ",
+    "city": "Craiova",
+    "url": "https://www.soft-hoarders.com/",
+    "email": "s.hoarders@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: CN Frații Buzești",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19121",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TEA-BORGS #19121",
+    "judet": "GJ",
+    "city": "Targu Jiu",
+    "url": "https://teaborgs.ro/",
+    "email": "teaborgs26@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național „Tudor Vladimirescu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19292",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TeamPhoenix #19292",
+    "judet": "GJ",
+    "city": "Targu Jiu",
+    "url": "https://www.instagram.com/_team._.phoenix_?igsh=MWNlNDU4aXc0ZmlneA%3D%3D&utm_source=qr",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Tehnologic Ion Mincu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19234",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ByteForce #19234",
+    "judet": "GL",
+    "city": "Galați",
+    "url": "https://byteforce.ro/",
+    "email": "byteforce@cnva.eu",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național „Vasile Alecsandri”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23478",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "DynaByte #23478",
+    "judet": "GL",
+    "city": "Galați",
+    "url": "https://www.facebook.com/profile.php?id=61552420230780",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național ”Vasile Alecsandri”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-28421",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ELECTRIC DRIFT #28421",
+    "judet": "GL",
+    "city": "Galati",
+    "url": "https://instagram.com/elec.tricdrift",
+    "email": "electric.drift28421@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Tehnologic de Transporturi Auto Traian Vuia Galati",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-27852",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "GOLD & GEARS #27852",
+    "judet": "GL",
+    "city": "Galati",
+    "url": "https://www.facebook.com/profile.php?id=61586107921730",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Alexandru Ioan Cuza",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23156",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "IGNITION UNION #23156",
+    "judet": "GL",
+    "city": "Galați",
+    "url": "https://www.cnmkgl.ro",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Mihail Kogalniceanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-28140",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "NOVA TECH #28140",
+    "judet": "GL",
+    "city": "Galati",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Teoretic Mircea Eliade",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23158",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Republic Of Danube #23158",
+    "judet": "GL",
+    "city": "Galați",
+    "url": "http://www.dunarea-info.ro/index.php/2015-05-11-14-33-47/republicofdanube",
+    "email": "republicofdanube@dunarea-info.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Liceul Teoretic ,,Dunărea",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21455",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoSophia #21455",
+    "judet": "GL",
+    "city": "Galați",
+    "url": "www.rosophia.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Centrul Județean de Excelență Galați",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23486",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Seramitae #23486",
+    "judet": "GL",
+    "city": "Galati",
+    "url": "https://www.facebook.com/profile.php?id=61560462058151&locale=ro_RO",
+    "email": "seramitae.robotica@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Colegiul National Costache Negri Galati",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-28083",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Strix Novus #28083",
+    "judet": "GL",
+    "city": "Galati",
+    "url": "https://www.facebook.com/share/1F9R4pYJf1/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National „C. Negri”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-28409",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TGB Robotics #28409",
+    "judet": "GL",
+    "city": "Tg. Bujor",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Tehnologic „Eremia Grigorescu” Tg. Bujor",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17871",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "THOBOR #17871",
+    "judet": "GL",
+    "city": "Tecuci",
+    "url": "https://www.facebook.com/share/1BgMRAcZp9/",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: CN Calistrat Hogaş",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-25225",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Afton Robotics #25225",
+    "judet": "HD",
+    "city": "Hațeg",
+    "url": "https://www.facebook.com/profile.php?id=61551781406839",
+    "email": "aftonroboticsteam@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic Ion Constantin Brătianu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19120",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "AlphaBit #19120",
+    "judet": "HD",
+    "city": "Petroșani",
+    "url": "www.alphabit.ro",
+    "email": "alphabit137@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Mihai Eminescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19106",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Dark Energy #19106",
+    "judet": "HD",
+    "city": "Deva",
+    "url": "https://www.facebook.com/share/1CHfXXwYgF/",
+    "email": "darkenergy19106@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național „Decebal”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19105",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "DecebalTech #19105",
+    "judet": "HD",
+    "city": "Deva",
+    "url": "https://cnd.ro/cndrobotics/DecebalTech.html",
+    "email": "decebaltech19105@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2020"
+    ],
+    "notes": "Școala: Colegiul Național „Decebal”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-28274",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "EliaTech #28274",
+    "judet": "HD",
+    "city": "Lupeni",
+    "url": "https://www.facebook.com/share/16tvZ4jUZj/?mibextid=wwXIfr",
+    "email": "eliatech@ltmeliade.ro",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic Mircea Eliade",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24446",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "LAZARUS ASCENDING #24446",
+    "judet": "HD",
+    "city": "Vulcan",
+    "url": "https://www.facebook.com/LazarusAscending/",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: LICEUL TEHNOLOGIC ,,MIHAI VITEAZU,,",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19047",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RavenTech_HD #19047",
+    "judet": "HD",
+    "city": "Hunedoara",
+    "url": "https://www.facebook.com/RavenTechHD",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național ”Traian Lalescu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20963",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboKey #20963",
+    "judet": "HD",
+    "city": "Petroșani",
+    "url": "https://www.facebook.com/RoboKeyRO161?locale=ro_RO",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National de Informatica Carmen Sylva",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-15975",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RobotX Hunedoara #15975",
+    "judet": "HD",
+    "city": "Hunedoara",
+    "url": "https://www.facebook.com/RobotXHunedoara",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național Traian Lalescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20985",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Wafy #20985",
+    "judet": "HD",
+    "city": "Petrila",
+    "url": "https://www.instagram.com/echipa_wafy/",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Tehnic Constantin Brancusi Petrila",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19059",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ArtRobotiX #19059",
+    "judet": "IL",
+    "city": "Slobozia",
+    "url": "https://www.facebook.com/people/ArtRobotix/100070203701677/?rdid=a0jwqHakRCo0Azoy&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F179vEe9Eig%2F",
+    "email": "artrobotix2018@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Liceul de Arte",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19131",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Evolution #19131",
+    "judet": "IL",
+    "city": "Slobozia",
+    "url": "www.evolutionrobotics.eu",
+    "email": "evolutionchallenge2019@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național Mihai Viteazul",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19090",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TEHROCUZ #19090",
+    "judet": "IL",
+    "city": "Slobozia",
+    "url": "https://www.facebook.com/share/1GYYW3bWsu/?mibextid=wwXIfr",
+    "email": "cuzatehrocuz@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: LICEUL TEHNOLOGIC ALEXANDRU IOAN CUZA",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24554",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Avocado Robotics #24554",
+    "judet": "IS",
+    "city": "Iași",
+    "url": "https://www.facebook.com/profile.php?id=61557121926874",
+    "email": "avocadorobotics@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic de Informatică „Grigore Moisil” Iași",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22697",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CreativityR #22697",
+    "judet": "IS",
+    "city": "Iasi",
+    "url": "https://sites.google.com/liceulvarlaam.ro/creativityr/start-joc",
+    "email": "creativity_r@liceulvarlaam.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Liceul teoretic Varlaam Mitropolitul",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19043",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CyLiis #19043",
+    "judet": "IS",
+    "city": "Iasi",
+    "url": "cyliis.ro",
+    "email": "contact@cyliis.ro",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Liceul Teoretic de Informatica Grigore Moisil",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32442",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Iron Minds LTTC #32442",
+    "judet": "IS",
+    "city": "iasi",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Tehnologic de Transporturi și de Construcții Iași",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22590",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "MechaByte #22590",
+    "judet": "IS",
+    "city": "Iasi",
+    "url": "https://mechabyte.paradis-college.ro/",
+    "email": "mechabyte22590@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Paradis International College",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19087",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "MironoBot #19087",
+    "judet": "IS",
+    "city": "Pascani",
+    "url": "https://www.facebook.com/share/1K4Wx9bydW/",
+    "email": "mironobot@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Liceul Teoretic MIRON COSTIN Pascani",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32762",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "NightWings #32762",
+    "judet": "IS",
+    "city": "Iasi",
+    "url": "https://nightwings.ro",
+    "email": "nightwings.iasi@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Universitatii Alexandru Ioan Cuza",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19044",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Peppers #19044",
+    "judet": "IS",
+    "city": "Iasi",
+    "url": "https://www.peppers-robotics.ro/",
+    "email": "contact@peppers-robotics.ro",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Liceul Teoretic de Informatică Grigore Moisil",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-27660",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "R0b0Ryders #27660",
+    "judet": "IS",
+    "city": "Vlădeni",
+    "url": "https://www.facebook.com/r0b0ryders",
+    "email": "r0b0ryders@yahoo.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: LICEUL TEHNOLOGIC VLĂDENI",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23800",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Robozzi #23800",
+    "judet": "IS",
+    "city": "Iași",
+    "url": "https://www.facebook.com/profile.php?id=100091617497093&locale=ro_RO",
+    "email": "robozzi@colegiulnegruzzi.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Colegiul Național Costache Negruzzi Iași",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32817",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "The Parakeets #32817",
+    "judet": "IS",
+    "city": "Iași",
+    "url": "https://www.facebook.com/profile.php?id=61581604230918",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-25558",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ARAMA.TECH #25558",
+    "judet": "MH",
+    "city": "Baia de Aramă",
+    "url": "https://www.facebook.com/profile.php?id=61566490417141",
+    "email": "arama.tech@liceu.baiadearama.ro",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Tehnologic Constantin Brancoveanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19073",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "The Emperor #19073",
+    "judet": "MH",
+    "city": "Drobeta Turnu Severin",
+    "url": "https://www.facebook.com/theEmperorFTC",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național Traian",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19342",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Clever Core #19342",
+    "judet": "MM",
+    "city": "Baia Mare",
+    "url": "https://www.facebook.com/clevercore",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național  Gheorghe Sincai Baia Mare",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24310",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "EXOROS #24310",
+    "judet": "MM",
+    "city": "Baia Mare",
+    "url": "https://exoros.robonext.ro/",
+    "email": "exorosteam@georgebaritiu.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Liceul Tehnologic ,,George Baritiu\"  Baia Mare",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19086",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Robocorns #19086",
+    "judet": "MM",
+    "city": "Baia Mare",
+    "url": "https://www.facebook.com/profile.php?id=100053507500850",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național Vasile Lucaciu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19101",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Tech-X #19101",
+    "judet": "MM",
+    "city": "Sighetu Marmatiei",
+    "url": "https://tech-x.ro",
+    "email": "techx.cndv2021@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul National Dragos Voda",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20974",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Hardwired #20974",
+    "judet": "MS",
+    "city": "Targu Mures",
+    "url": "https://colegiulunirea.ro/robotica",
+    "email": "marginean.manuela@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National Unirea",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19048",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboPapiu #19048",
+    "judet": "MS",
+    "city": "Targu Mures",
+    "url": "https://www.facebook.com/robopapiu",
+    "email": "bocskaisanda@yahoo.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național ”Alexandru Papiu Ilarian”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19147",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Blizzard Eye #19147",
+    "judet": "NT",
+    "city": "Targu Neamt",
+    "url": "https://robotica.cnsm.ro/",
+    "email": "blizzardeye2019@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național “Ștefan cel Mare”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22998",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CYB3RG0DS #22998",
+    "judet": "NT",
+    "city": "Piatra Neamt",
+    "url": "http://cybe3rgods.wordpress.com",
+    "email": "cybergods.cni@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: CN de Informatica",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22017",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Eu codez #22017",
+    "judet": "NT",
+    "city": "Piatra Neamt",
+    "url": "https://www.facebook.com/profile.php?id=100089091562707",
+    "email": "ftceucodez@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2022"
+    ],
+    "notes": "Școala: CN Informatica",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19139",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "SNAKE TECH #19139",
+    "judet": "NT",
+    "city": "Piatra Neamt",
+    "url": "https://sites.google.com/view/snaketech/home",
+    "email": "snaketechro40@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național „Petru Rareș",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21028",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "The Eagles #21028",
+    "judet": "NT",
+    "city": "Roman",
+    "url": "https://theeaglesftc.pages.dev/",
+    "email": "the.eagles143@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național Roman-Vodă",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24478",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "EngiNeerds #24478",
+    "judet": "OT",
+    "city": "Slatina",
+    "url": "https://engineerds.cnrg.ro",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul Național",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-25916",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "EngiNeerds NextGen #25916",
+    "judet": "OT",
+    "city": "Slatina",
+    "url": "https://engineerds-nextgen.cnrg.ro",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Național",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19110",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboSmart #19110",
+    "judet": "OT",
+    "city": "Slatina",
+    "tags": [
+      "ftc",
+      "rookie-2020"
+    ],
+    "notes": "Școala: Colegiul Național Ion Minulescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19111",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "TITUROBO #19111",
+    "judet": "OT",
+    "city": "Slatina",
+    "url": "https://www.facebook.com/share/17MtNWCv6K/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Liceul Teoretic Nicolae Titulescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19141",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "BraveBots #19141",
+    "judet": "PH",
+    "city": "Ploiesti",
+    "url": "https://bravebots.ro/",
+    "email": "bravebots.cnmv@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: CN Mihai Viteazul Ploiesti",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21169",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CyberLions #21169",
+    "judet": "PH",
+    "city": "Urlati",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic Brancoveanu Voda",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-31036",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Dynasty Droids #31036",
+    "judet": "PH",
+    "city": "Ploiesti",
+    "url": "https://dynastydroids.com/",
+    "email": "dynastydroids@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Colegiul National \"Ion Luca Caragiale\"",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19098",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Eastern Foxes #19098",
+    "judet": "PH",
+    "city": "Ploiesti",
+    "url": "https://www.facebook.com/share/1GeDnaZN2K/?mibextid=wwXIfr",
+    "email": "eas1ernf0xes@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2020"
+    ],
+    "notes": "Școala: CN Ion Luca Caragiale",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17869",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ERCAST2020 #17869",
+    "judet": "PH",
+    "city": "Ploiesti",
+    "url": "https://www.facebook.com/share/16nhJnPqrU/?mibextid=wwXIfr",
+    "email": "ro102ercast@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Tehnologic Energetic  Elie Radu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-15993",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "infO(1)Robotics #15993",
+    "judet": "PH",
+    "city": "Ploiesti",
+    "url": "https://info1robotics.com/",
+    "email": "info1robotics@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN Ion Luca Caragiale",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17962",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Ro2D2 #17962",
+    "judet": "PH",
+    "city": "Ploiesti",
+    "url": "https://www.ro2d2team.com/",
+    "email": "ro2d2team@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național Mihai VIteazul",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22552",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ToTheStars Robotics #22552",
+    "judet": "PH",
+    "city": "Ploiesti",
+    "url": "https://www.instagram.com/tothestars.robotics/",
+    "email": "tothestars.robotics@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2022"
+    ],
+    "notes": "Școala: Liceul Tehnologic Administrativ și de Servicii Victor Slavescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19112",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "UNDEFINED #19112",
+    "judet": "PH",
+    "city": "Câmpina",
+    "url": "https://teamundefined.com/",
+    "email": "teamundefined2018@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național „Nicolae Grigorescu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17875",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Code_Warriors #17875",
+    "judet": "SB",
+    "city": "Mediaș",
+    "url": "https://www.facebook.com/wearecodewarriors",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic „Roth-Oberth”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-16000",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Gear Maniacs #16000",
+    "judet": "SB",
+    "city": "Sibiu",
+    "url": "https://www.facebook.com/gearmaniacsteam",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul National “Samuel von Brukenthal”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21972",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "LTASrob #21972",
+    "judet": "SB",
+    "city": "Medias",
+    "url": "https://www.facebook.com/share/16MpbPngjm/",
+    "email": "ltasrob@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2022"
+    ],
+    "notes": "Școala: Liceul Teoretic Axente Sever",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20043",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "SNGine #20043",
+    "judet": "SB",
+    "city": "Medias",
+    "url": "https://www.facebook.com/SNGineTeam",
+    "email": "sngine2021@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul Scoala Nationala de Gaz",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19091",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "The Resistance #19091",
+    "judet": "SB",
+    "city": "Mediaș",
+    "url": "https://www.facebook.com/people/The-Resistance/100063261096852/?mibextid=wwXIfr&rdid=oyK9F5K6DWw7wGxd&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16s8vMtTzv%2F%3Fmibextid%3DwwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic „Roth - Oberth”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19152",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Brainstorms #19152",
+    "judet": "SJ",
+    "city": "Zalau",
+    "url": "https://www.facebook.com/Brainstorms072?locale=ro_RO",
+    "email": "brainstorms@apizal.ro",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Colegiul Tehnic Alesandru Papiu Ilarian",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22586",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CNapSys #22586",
+    "judet": "SJ",
+    "city": "Zalau",
+    "url": "https://www.facebook.com/share/172fNLVuPF/",
+    "email": "cnapsys@cnszalau.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Colegiul National Silvania",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19115",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "B-Robo #19115",
+    "judet": "SM",
+    "city": "Satu Mare",
+    "url": "www.b-robo.team",
+    "email": "b.roboteam064@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Asociația Brătianu pentru Educație",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17870",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Perpetuum Mobile #17870",
+    "judet": "SM",
+    "city": "Satu Mare",
+    "url": "https://www.facebook.com/share/1Aj5niCk23/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Colegiul National ”Mihai Eminescu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32799",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "PrismaTech #32799",
+    "judet": "SM",
+    "city": "Satu Mare",
+    "url": "https://www.facebook.com/share/1Cy4NEn1j6/?mibextid=wwXIfr",
+    "email": "prismatechsm@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Colegiul Național „Doamna Stanca”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-18338",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "StarTech #18338",
+    "judet": "SM",
+    "city": "Satu Mare",
+    "url": "https://www.facebook.com/StarTechFTC",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul Național Ioan Slavici",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22114",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Teoretika #22114",
+    "judet": "SM",
+    "city": "Negresti-Oaș",
+    "url": "https://www.facebook.com/share/1FidwJnn7T/",
+    "email": "teoretika@licteneg.ro",
+    "tags": [
+      "ftc",
+      "rookie-2022"
+    ],
+    "notes": "Școala: Liceul Teoretic Negrești- Oaș",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19100",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "FutureTech #19100",
+    "judet": "SV",
+    "city": "Vatra Dornei",
+    "url": "https://futuretechro101.weebly.com/",
+    "email": "futuretech.ro101@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Liceul Teoretic Ion Luca/Clubul Copiilor Vatra Dornei",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20936",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Royal Engineers #20936",
+    "judet": "SV",
+    "city": "Suceava",
+    "url": "https://royalengineers.ro/",
+    "email": "contact@royalengineers.ro",
+    "tags": [
+      "ftc",
+      "rookie-2021"
+    ],
+    "notes": "Școala: Colegiul Național Ștefan cel Mare",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19148",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "STEFTECH #19148",
+    "judet": "SV",
+    "city": "Campulung Moldovenesc",
+    "url": "https://web.facebook.com/Steftech113",
+    "email": "steftech19148@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Colegiul Național Militar \"Ștefan Cel Mare\"",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20972",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "VOLTA CIRCUITS #20972",
+    "judet": "SV",
+    "city": "Suceava",
+    "url": "https://www.facebook.com/voltacircuitsftc",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național „Petru Rareş”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21044",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Epsilon #21044",
+    "judet": "TL",
+    "city": "Tulcea",
+    "url": "https://www.facebook.com/share/1BLntQwXWa/?mibextid=wwXIfr",
+    "tags": [
+      "ftc",
+      "rookie-2020"
+    ],
+    "notes": "Școala: Colegiul National \"Spiru Haret\" Tulcea",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17881",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "River Wolves #17881",
+    "judet": "TL",
+    "city": "Tulcea",
+    "url": "https://riverwolves.org/",
+    "email": "riverwolvestulcea@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Liceul Teoretic „Grigore Moisil” Tulcea",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20732",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Atlas CNB #20732",
+    "judet": "TM",
+    "city": "Timisoara",
+    "url": "https://www.facebook.com/profile.php?id=61553824511815",
+    "tags": [
+      "ftc",
+      "rookie-2021"
+    ],
+    "notes": "Școala: Colegiul National Banatean",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-17861",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CSH #17861",
+    "judet": "TM",
+    "city": "Timisoara",
+    "url": "https://team-csh.ro/",
+    "email": "teamcsh@cnpcarmensylva.ro",
+    "tags": [
+      "ftc",
+      "rookie-2017"
+    ],
+    "notes": "Școala: Colegiul Național Pedagogic ,,Carmen Sylva”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19256",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CyberMoon #19256",
+    "judet": "TM",
+    "city": "Timișoara",
+    "url": "https://cybermoon.ro/",
+    "email": "teamcybermoon@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național Constantin Diaconovici Loga",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24566",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "LTTV #24566",
+    "judet": "TM",
+    "city": "Făget",
+    "url": "https://www.facebook.com/profile.php?id=61581348164282",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-20135",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Meeral Robotics #20135",
+    "judet": "TM",
+    "city": "Timisoara",
+    "url": "meeralrobotics",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: CN Constantin Diaconovici Loga",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32854",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "PeacoRobotics #32854",
+    "judet": "TM",
+    "city": "Lugoj",
+    "url": "https://www.facebook.com/share/1JPFYmcN7S/",
+    "email": "peacorobotics8@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Liceul Tehnologic Valeriu Braniste",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23205",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "RoboDojo #23205",
+    "judet": "TM",
+    "city": "Timișoara",
+    "url": "robodojo.ro",
+    "email": "contact@robodojo.ro",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Colegiul Național Ana Aslan Timișoara",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-25871",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "SolarSparks Robotics #25871",
+    "judet": "TM",
+    "city": "Timișoara",
+    "url": "https://www.facebook.com/profile.php?id=61577023431797#",
+    "email": "solarsparksrobotics@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Școala Gimnazială nr.30",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21034",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Team Originals #21034",
+    "judet": "TM",
+    "city": "Timisoara",
+    "url": "https://www.facebook.com/profile.php?id=100086988912444",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: COLEGIUL TEHNIC HENRI COANDA",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19257",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "UNPLUGGED #19257",
+    "judet": "TM",
+    "city": "Timisoara",
+    "url": "https://www.facebook.com/unpluggedlenau/",
+    "email": "pr@unplugged.lenau.ro",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Liceul Teoretic Nikolaus Lenau Timisoara",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19094",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "WizzTech #19094",
+    "judet": "TM",
+    "city": "Timisoara",
+    "url": "https://www.facebook.com/wizztechtm",
+    "email": "wizztechtm@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Liceul Teoretic \"Grigore Moisil\"",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19067",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Bionic Royals #19067",
+    "judet": "VL",
+    "city": "Râmnicu Vâlcea",
+    "url": "https://www.facebook.com/bionicroyals/",
+    "email": "ro042.bionic.royals@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2016"
+    ],
+    "notes": "Școala: Colegiul Național „Mircea cel Bătrân”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19088",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "BroBots #19088",
+    "judet": "VL",
+    "city": "Ramnicu Valcea",
+    "url": "https://www.facebook.com/brobotsteam",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: CN Alexandru Lahovari",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-22941",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Brute Force #22941",
+    "judet": "VL",
+    "city": "Drăgășani",
+    "url": "https://bruteforceteam.com/",
+    "email": "contactrobotica@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: CN Gib Mihaescu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21030",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "MasterBots #21030",
+    "judet": "VL",
+    "city": "Ramnicu Valcea",
+    "url": "https://www.facebook.com/masterbots.team",
+    "email": "masterbots.team@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2021"
+    ],
+    "notes": "Școala: CNI Matei Basarab",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24037",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Start Code #24037",
+    "judet": "VL",
+    "city": "Râmnicu Vâlcea",
+    "url": "https://ftc.startcode.ro/",
+    "email": "ccotea@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2024"
+    ],
+    "notes": "Școala: Colegiul Energetic",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-24399",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "ToastedMinds #24399",
+    "judet": "VL",
+    "city": "Rm.Valcea",
+    "url": "https://www.facebook.com/profile.php?id=61553380352742",
+    "email": "toastedmindsrobitics@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Liceul Sanitar Antim Ivireanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19066",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "AICitizens #19066",
+    "judet": "VN",
+    "city": "Focșani",
+    "url": "https://www.aicitizens.ro/",
+    "email": "aicitizensdevelopment@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: CN Alexandru Ioan Cuza",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-15996",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "BRICKBOT #15996",
+    "judet": "VN",
+    "city": "Focșani",
+    "url": "https://brickbot.ro",
+    "email": "brickbot@liceulunirea.ro",
+    "tags": [
+      "ftc",
+      "rookie-2015"
+    ],
+    "notes": "Școala: Colegiul National Unirea",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-32838",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CEMEKANIKS25 #32838",
+    "judet": "VN",
+    "city": "Focșani",
+    "url": "https://www.facebook.com/share/1H6SYkmPNq/",
+    "tags": [
+      "ftc",
+      "rookie-2025"
+    ],
+    "notes": "Școala: Colegiul Economic Mihail Kogălniceanu",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23161",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "CYBERLIS76 #23161",
+    "judet": "VN",
+    "city": "Panciu",
+    "url": "https://www.facebook.com/share/1CHujr62DJ/",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Liceul Teoretic Ioan Slavici",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19065",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Inorog #19065",
+    "judet": "VS",
+    "city": "Barlad",
+    "url": "https://inorog.org",
+    "email": "inorogteam@yahoo.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Colegiul Naţional „Gheorghe Roșca Codreanu”",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-23576",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Orion #23576",
+    "judet": "VS",
+    "city": "Vaslui",
+    "url": "https://www.facebook.com/ftcorion/",
+    "tags": [
+      "ftc",
+      "rookie-2023"
+    ],
+    "notes": "Școala: Centrul Județean de Excelență Vaslui",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19097",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Quasar Robotics #19097",
+    "judet": "VS",
+    "city": "Huși",
+    "url": "https://www.facebook.com/share/1J9eNvtpTQ/",
+    "email": "quasarro127@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Colegiul Național Cuza Vodă",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-21031",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "Rolerbot #21031",
+    "judet": "VS",
+    "city": "Vaslui",
+    "url": "https://www.facebook.com/rolerbot",
+    "email": "rolerbotintl@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2018"
+    ],
+    "notes": "Școala: Liceul Teoretic Emil Racovita Vaslui",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  },
+  {
+    "id": "ftc-19211",
+    "id_source": "slug",
+    "category": "robotica",
+    "name": "VirtualWolves #19211",
+    "judet": "VS",
+    "city": "Barlad",
+    "url": "https://www.facebook.com/people/VirtualWolves-FTC-Romania-RO165/100063633153911/",
+    "email": "virtualwolvesro165@gmail.com",
+    "tags": [
+      "ftc",
+      "rookie-2019"
+    ],
+    "notes": "Școala: Liceul Teoretic",
+    "source_url": "https://natieprineducatie.ro/teams/",
+    "scraped_at": "2026-09-14T14:03:15.192Z"
+  }
+]
