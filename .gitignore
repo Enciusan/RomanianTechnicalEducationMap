@@ -25,3 +25,7 @@ dist-ssr
 
 # scraper cache
 scripts/.cache/
+
+# AI agent instructions (local only)
+CLAUDE.md
+.claude/
