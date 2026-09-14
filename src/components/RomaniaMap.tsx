@@ -4,6 +4,7 @@ import { geoMercator, geoPath } from 'd3-geo'
 import type { FeatureCollection, Geometry } from 'geojson'
 import geo from '@/data/judete.json'
 import { CATEGORIES, CATEGORY, type Entity } from '@/lib/entities'
+import { useI18n } from '@/lib/i18n'
 
 const W = 1000
 const H = 640
@@ -71,6 +72,7 @@ interface Props {
 }
 
 export function RomaniaMap({ entities, counts, catCounts, judet, selectedId, onJudet, onEntity }: Props) {
+  const { t } = useI18n()
   const [hover, setHover] = useState<string | null>(null)
   const [hoverJudet, setHoverJudet] = useState<{ code: string; x: number; y: number } | null>(null)
   // Aceternity-style: tooltip tilts/slides with cursor position inside the hovered shape.
@@ -93,7 +95,7 @@ export function RomaniaMap({ entities, counts, catCounts, judet, selectedId, onJ
       viewBox={`0 0 ${W} ${H}`}
       className="h-full w-full select-none"
       role="img"
-      aria-label="Harta României pe județe"
+      aria-label={t.mapAria}
       onClick={(ev) => { if (ev.target === ev.currentTarget && judet) onJudet(null) }}
     >
       <g
@@ -198,12 +200,12 @@ export function RomaniaMap({ entities, counts, catCounts, judet, selectedId, onJ
             <div className="absolute inset-x-8 -bottom-px h-px bg-gradient-to-r from-transparent via-emerald-400 to-transparent" />
             <div className="absolute inset-x-12 -bottom-px h-px bg-gradient-to-r from-transparent via-sky-400 to-transparent" />
             <div className="text-[13px] font-semibold tracking-tight text-white">{hj.name}</div>
-            <div className="tabular text-[11px] text-white/60">{counts.get(hj.code) ?? 0} entități</div>
+            <div className="tabular text-[11px] text-white/60">{counts.get(hj.code) ?? 0} {t.entities}</div>
             <div className="mt-1 flex flex-wrap justify-center gap-x-2 gap-y-0.5">
               {CATEGORIES.filter((c) => hjCats[c]).map((c) => (
                 <span key={c} className="tabular flex items-center gap-1 text-[10px] text-white/75">
                   <span className="size-1.5 rounded-full" style={{ background: CATEGORY[c].color }} />
-                  {hjCats[c]} {CATEGORY[c].short}
+                  {hjCats[c]} {t.cat[c][1]}
                 </span>
               ))}
             </div>

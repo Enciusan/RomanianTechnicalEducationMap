@@ -1,6 +1,7 @@
 import { ExternalLink, Globe, Mail, MapPin, Phone, User } from 'lucide-react'
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog'
 import { BY_ID, CATEGORY, DATA, JUDET_NAME, type Entity } from '@/lib/entities'
+import { useI18n } from '@/lib/i18n'
 
 interface Props {
   entity: Entity | null
@@ -23,6 +24,7 @@ function Row({ icon: Icon, label, children }: { icon: typeof Mail; label: string
 const link = 'cursor-pointer underline decoration-white/25 underline-offset-4 hover:decoration-white'
 
 export function EntityDialog({ entity: e, onClose, onEntity }: Props) {
+  const { t } = useI18n()
   const parent = e?.parent_id ? BY_ID.get(e.parent_id) : undefined
   const children = e ? DATA.filter((x) => x.parent_id === e.id) : []
   return (
@@ -34,7 +36,7 @@ export function EntityDialog({ entity: e, onClose, onEntity }: Props) {
               <div className="flex flex-wrap items-center gap-2">
                 <span className="glass-pill inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[11px] font-medium">
                   <span className="size-1.5 rounded-full" style={{ background: CATEGORY[e.category].color }} aria-hidden />
-                  {CATEGORY[e.category].label}
+                  {t.cat[e.category][0]}
                 </span>
                 {e.rank != null && <span className="glass-pill tabular rounded-full px-2.5 py-1 text-[11px] font-medium">#{e.rank}{e.score != null && ` · ${e.score}`}</span>}
                 {e.tags?.filter((t) => !['ftc', 'mate-info', 'registru-ong'].includes(t)).map((t) => (
@@ -49,11 +51,11 @@ export function EntityDialog({ entity: e, onClose, onEntity }: Props) {
             </DialogHeader>
 
             <div className="divide-y divide-white/8">
-              {e.email && <Row icon={Mail} label="Email"><a className={link} href={`mailto:${e.email}`}>{e.email}</a></Row>}
-              {e.phone && <Row icon={Phone} label="Telefon"><a className={link} href={`tel:${e.phone.replace(/[^\d+]/g, '')}`}>{e.phone}</a></Row>}
-              {e.contact_name && <Row icon={User} label="Contact">{e.contact_name}</Row>}
+              {e.email && <Row icon={Mail} label={t.email}><a className={link} href={`mailto:${e.email}`}>{e.email}</a></Row>}
+              {e.phone && <Row icon={Phone} label={t.phone}><a className={link} href={`tel:${e.phone.replace(/[^\d+]/g, '')}`}>{e.phone}</a></Row>}
+              {e.contact_name && <Row icon={User} label={t.contact}>{e.contact_name}</Row>}
               {e.url && (
-                <Row icon={Globe} label="Site">
+                <Row icon={Globe} label={t.site}>
                   <a className={`${link} inline-flex items-center gap-1`} href={e.url} target="_blank" rel="noreferrer">
                     {e.url.replace(/^https?:\/\//, '').replace(/\/$/, '')} <ExternalLink className="size-3" aria-hidden />
                   </a>
@@ -62,13 +64,13 @@ export function EntityDialog({ entity: e, onClose, onEntity }: Props) {
               {e.notes && <div className="py-3 text-sm leading-relaxed text-muted-foreground">{e.notes}</div>}
               {parent && (
                 <div className="py-3 text-sm">
-                  <span className="text-muted-foreground">Parte din </span>
+                  <span className="text-muted-foreground">{t.partOf} </span>
                   <button className={link} onClick={() => onEntity(parent)}>{parent.name}</button>
                 </div>
               )}
               {children.length > 0 && (
                 <div className="py-3">
-                  <div className="mb-1.5 text-[11px] tracking-wide text-muted-foreground uppercase">Legate</div>
+                  <div className="mb-1.5 text-[11px] tracking-wide text-muted-foreground uppercase">{t.related}</div>
                   <ul className="space-y-1">
                     {children.map((c) => (
                       <li key={c.id}>
@@ -82,7 +84,7 @@ export function EntityDialog({ entity: e, onClose, onEntity }: Props) {
 
             <div className="mt-4 flex items-center justify-between text-[11px] text-muted-foreground">
               <a href={e.source_url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-foreground">
-                sursă <ExternalLink className="size-3" aria-hidden />
+                {t.source} <ExternalLink className="size-3" aria-hidden />
               </a>
               <span className="tabular">{e.id} · {e.scraped_at.slice(0, 10)}</span>
             </div>
