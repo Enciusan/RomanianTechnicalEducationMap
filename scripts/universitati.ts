@@ -3,14 +3,17 @@ import type { Entity } from './types'
 import { fetchText, norm } from './util'
 import meta from './seed/metaranking_2025.json'
 
-const SRC = 'https://www.edu.ro/universitati_stat_civile'
+const SOURCES = [
+  { url: 'https://www.edu.ro/universitati_stat_civile', tag: 'stat', codeRe: /^U\.\d/ },
+  { url: 'https://www.edu.ro/universitati_particulare_acreditate', tag: 'privat', codeRe: /^U\.P\.\d/ },
+]
 
 // city (normalized) -> judet. Universities name their city; edu.ro table has no city column.
 const CITY: Record<string, string> = {
   bucuresti: 'B', 'cluj napoca': 'CJ', brasov: 'BV', iasi: 'IS', timisoara: 'TM', oradea: 'BH',
   galati: 'GL', craiova: 'DJ', 'targu mures': 'MS', sibiu: 'SB', suceava: 'SV', constanta: 'CT',
   targoviste: 'DB', arad: 'AR', ploiesti: 'PH', 'alba iulia': 'AB', pitesti: 'AG', bacau: 'BC',
-  petrosani: 'HD', resita: 'CS', 'baia mare': 'MM', 'targu jiu': 'GJ',
+  petrosani: 'HD', resita: 'CS', 'baia mare': 'MM', 'targu jiu': 'GJ', lugoj: 'TM', cernica: 'IF',
 }
 
 function cityOf(name: string): { city?: string; judet?: string } {
@@ -32,17 +35,18 @@ function rankOf(name: string) {
 }
 
 export async function scrapeUniversitati(): Promise<Entity[]> {
-  const $ = cheerio.load(await fetchText(SRC))
   const scraped_at = new Date().toISOString()
   const out: Entity[] = []
   const unmatched: string[] = []
+  for (const SRC of SOURCES) {
+  const $ = cheerio.load(await fetchText(SRC.url))
   $('table tr').each((_, tr) => {
     const td = $(tr).find('td')
     if (td.length < 2) return
     const code = td.eq(0).text().trim().replace(/\.$/, '')
     const name = td.eq(1).text().replace(/\s+/g, ' ').trim()
     const url = td.eq(1).find('a').attr('href')?.trim()
-    if (!name || !/^U\.\d/.test(code)) return
+    if (!name || !SRC.codeRe.test(code)) return
     const { city, judet } = cityOf(name)
     if (!judet) unmatched.push(name)
     const r = rankOf(name)
@@ -55,11 +59,12 @@ export async function scrapeUniversitati(): Promise<Entity[]> {
       city,
       url,
       ...r,
-      tags: ['stat', ...(r.rank ? ['metaranking-2025'] : [])],
-      source_url: SRC,
+      tags: [SRC.tag, ...(r.rank ? ['metaranking-2025'] : [])],
+      source_url: SRC.url,
       scraped_at,
     })
   })
+  }
   if (unmatched.length) console.warn(`[univ] no judet for ${unmatched.length}:`, unmatched.join(' | '))
   const missingRank = meta.rows.filter((m) => !out.some((e) => e.rank === m.rank)).map((m) => m.name)
   if (missingRank.length) console.warn(`[univ] metaranking rows not matched:`, missingRank.join(' | '))
