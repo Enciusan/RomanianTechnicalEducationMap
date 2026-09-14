@@ -1,13 +1,15 @@
 import { writeFileSync } from 'node:fs'
 import type { Entity, Category } from './types'
 import { scrapeFtc } from './ftc'
+import { scrapeUniversitati } from './universitati'
+import { scrapeLicee } from './licee'
 
 const PRIORITY: Category[] = [
   'robotica', 'facultate', 'universitate', 'liceu',
   'centru_excelenta', 'asociatie_studenti', 'hub', 'ong',
 ]
 
-const sources: (() => Promise<Entity[]>)[] = [scrapeFtc]
+const sources: (() => Promise<Entity[]>)[] = [scrapeFtc, scrapeUniversitati, scrapeLicee]
 
 const all: Entity[] = []
 for (const src of sources) all.push(...(await src()))
