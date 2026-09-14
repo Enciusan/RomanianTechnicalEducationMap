@@ -24,6 +24,8 @@ export interface Entity {
   parent_id?: string
   rank?: number
   score?: number
+  lat?: number
+  lng?: number
   tags?: string[]
   source_url: string
   scraped_at: string

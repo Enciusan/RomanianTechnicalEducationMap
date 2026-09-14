@@ -24,6 +24,8 @@ interface SeasonTeam {
   instagramLink: string | null
   youtubeLink: string | null
   registrationStatus: string
+  latitude: number | null
+  longitude: number | null
 }
 
 async function getJson<T>(url: string): Promise<T> {
@@ -58,6 +60,8 @@ export async function scrapeFtc(): Promise<Entity[]> {
       city: s?.city || t.currentSeasonData.city || undefined,
       url: url || undefined,
       email: s?.primaryEmailContact || undefined,
+      lat: s?.latitude ?? undefined,
+      lng: s?.longitude ?? undefined,
       tags: ['ftc', `rookie-${t.rookieYear}`],
       notes: `Școala: ${s?.school || t.currentSeasonData.school}`,
       source_url: 'https://natieprineducatie.ro/teams/',

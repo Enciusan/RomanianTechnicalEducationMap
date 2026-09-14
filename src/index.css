@@ -128,3 +128,60 @@
     @apply font-sans;
     }
 }
+/* ---------- Harta: dark-first OLED overrides + liquid glass ---------- */
+.dark {
+    --background: oklch(0.13 0.008 260);
+    --foreground: oklch(0.96 0.005 260);
+    --card: oklch(0.17 0.01 260);
+    --card-foreground: oklch(0.96 0.005 260);
+    --popover: oklch(0.17 0.01 260);
+    --popover-foreground: oklch(0.96 0.005 260);
+    --primary: oklch(0.96 0.005 260);
+    --primary-foreground: oklch(0.15 0.01 260);
+    --secondary: oklch(0.22 0.01 260);
+    --secondary-foreground: oklch(0.96 0.005 260);
+    --muted: oklch(0.22 0.01 260);
+    --muted-foreground: oklch(0.68 0.01 260);
+    --accent: oklch(0.24 0.012 260);
+    --accent-foreground: oklch(0.96 0.005 260);
+    --border: oklch(1 0 0 / 10%);
+    --input: oklch(1 0 0 / 12%);
+    --ring: oklch(0.75 0.15 165);
+    --sol-green: oklch(0.86 0.2 165);
+    --sol-purple: oklch(0.65 0.22 300);
+}
+
+html, body, #root { height: 100%; }
+body { background: var(--background); color: var(--foreground); overflow: hidden; }
+
+.glass {
+    background: color-mix(in oklab, var(--card) 55%, transparent);
+    -webkit-backdrop-filter: blur(24px) saturate(160%);
+    backdrop-filter: blur(24px) saturate(160%);
+    border: 1px solid oklch(1 0 0 / 12%);
+    box-shadow:
+        inset 0 1px 0 oklch(1 0 0 / 14%),
+        inset 0 -1px 0 oklch(0 0 0 / 25%),
+        0 8px 32px oklch(0 0 0 / 35%);
+}
+.glass-pill {
+    background: oklch(1 0 0 / 6%);
+    border: 1px solid oklch(1 0 0 / 10%);
+    box-shadow: inset 0 1px 0 oklch(1 0 0 / 10%);
+    transition: background 180ms ease, border-color 180ms ease, transform 120ms ease;
+}
+.glass-pill:hover { background: oklch(1 0 0 / 10%); border-color: oklch(1 0 0 / 18%); }
+.glass-pill:active { transform: scale(0.97); }
+.glass-pill[data-active="true"] {
+    background: oklch(1 0 0 / 14%);
+    border-color: oklch(1 0 0 / 28%);
+    box-shadow: inset 0 1px 0 oklch(1 0 0 / 20%), 0 0 0 1px oklch(1 0 0 / 4%);
+}
+
+.map-judet { fill: oklch(0.22 0.01 260); stroke: oklch(1 0 0 / 14%); stroke-width: 0.6; transition: fill 250ms ease, opacity 250ms ease; cursor: pointer; }
+.map-judet:hover { fill: oklch(0.28 0.012 260); }
+.map-judet[data-active="true"] { fill: oklch(0.26 0.012 260); stroke: oklch(1 0 0 / 40%); }
+.map-judet[data-dim="true"] { fill: oklch(0.16 0.006 260); stroke: oklch(1 0 0 / 5%); opacity: 0.55; pointer-events: none; }
+
+.tabular { font-variant-numeric: tabular-nums; }
+@media (prefers-reduced-motion: reduce) { * { transition-duration: 1ms !important; animation-duration: 1ms !important; } }

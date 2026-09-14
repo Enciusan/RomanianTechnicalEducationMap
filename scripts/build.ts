@@ -5,6 +5,7 @@ import { scrapeUniversitati } from './universitati'
 import { scrapeLicee } from './licee'
 import { loadSeeds } from './seed'
 import { scrapeOng } from './ong'
+import { geocode } from './geocode'
 
 const PRIORITY: Category[] = [
   'robotica', 'facultate', 'universitate', 'liceu',
@@ -25,6 +26,8 @@ const data = [...byId.values()].sort(
     (a.rank ?? 1e9) - (b.rank ?? 1e9) ||
     a.name.localeCompare(b.name),
 )
+
+await geocode(data)
 
 const orphans = data.filter((e) => e.parent_id && !byId.has(e.parent_id))
 if (orphans.length) console.warn('[build] orphan parent_id:', orphans.map((e) => `${e.id}->${e.parent_id}`).join(', '))
