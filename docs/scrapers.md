@@ -17,7 +17,7 @@ Two API calls, joined on internal team id: the public list (name, number, school
 
 ## `universitati.ts`: universities
 
-Parses the two edu.ro HTML tables (state, private). City is inferred from the name ("... DIN CLUJ-NAPOCA") through a small city → county map. Excludes institutions with no CS relevance (theology, arts, music, theatre, film, sports, medicine, pharmacy, architecture, agricultural/veterinary) and any marked as in liquidation. Trailing notes in the name (teaching language, cycle) move to `notes`. Metaranking rank/score are attached by normalised-name match, with an alias map for renamed institutions.
+Parses the two edu.ro HTML tables (state, private). City is inferred from the name ("... DIN CLUJ-NAPOCA") through a small city-to-county map. Excludes institutions with no CS relevance (theology, arts, music, theatre, film, sports, medicine, pharmacy, architecture, agricultural/veterinary) and any marked as in liquidation. Trailing notes in the name (teaching language, cycle) move to `notes`. Metaranking rank/score are attached by normalised-name match, with an alias map for renamed institutions.
 
 ## `ong.ts`: NGOs
 
