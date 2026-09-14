@@ -4,13 +4,14 @@ import { scrapeFtc } from './ftc'
 import { scrapeUniversitati } from './universitati'
 import { scrapeLicee } from './licee'
 import { loadSeeds } from './seed'
+import { scrapeOng } from './ong'
 
 const PRIORITY: Category[] = [
   'robotica', 'facultate', 'universitate', 'liceu',
   'centru_excelenta', 'asociatie_studenti', 'hub', 'ong',
 ]
 
-const sources: (() => Promise<Entity[]>)[] = [scrapeFtc, scrapeUniversitati, scrapeLicee, loadSeeds]
+const sources: (() => Promise<Entity[]>)[] = [scrapeFtc, scrapeUniversitati, scrapeLicee, loadSeeds, scrapeOng]
 
 const all: Entity[] = []
 for (const src of sources) all.push(...(await src()))

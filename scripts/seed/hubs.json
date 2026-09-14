@@ -1,0 +1,6 @@
+[
+  { "id": "hub-techhub-bucuresti", "judet": "B", "city": "București", "name": "TechHub Bucharest", "url": "https://bucharest.techhub.com", "tags": ["coworking", "events"], "source_url": "https://bucharest.techhub.com" },
+  { "id": "hub-impacthub-bucuresti", "judet": "B", "city": "București", "name": "Impact Hub Bucharest", "url": "https://impacthub.ro", "email": "hello@impacthub.ro", "notes": "events@impacthub.ro", "tags": ["coworking", "events"], "source_url": "https://impacthub.ro" },
+  { "id": "hub-clujhub", "judet": "CJ", "city": "Cluj-Napoca", "name": "ClujHub", "url": "https://clujhub.ro", "email": "contact@clujhub.ro", "tags": ["coworking", "events"], "source_url": "https://clujhub.ro" },
+  { "id": "hub-thegrape-iasi", "judet": "IS", "city": "Iași", "name": "The Grape Iași", "url": "https://thegrape.ro", "tags": ["coworking"], "source_url": "https://thegrape.ro" }
+]
