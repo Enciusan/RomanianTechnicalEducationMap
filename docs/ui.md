@@ -9,7 +9,7 @@ Dark-first, liquid-glass surfaces, minimal chrome. Everything renders from `data
 - **Hover**: the county glows and a spring-animated tooltip appears above its top edge with the total and a per-category breakdown. The tooltip tilts and slides slightly with the cursor.
 - **Click a county**: the `<g>` transform animates to fit that county (560 ms ease-out). Other counties are dimmed and non-interactive. Entities appear as dots, coloured by category, sized constant on screen regardless of zoom.
 - **Click a dot**: opens the detail dialog and highlights it. Hovering a dot shows its name.
-- **Back**: click empty map, press Escape, or use the "← Romania" button.
+- **Back**: click empty map, press Escape, or use the "Romania" back button.
 
 ## Glass bar (`GlassBar.tsx`)
 

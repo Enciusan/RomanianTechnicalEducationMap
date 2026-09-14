@@ -7,7 +7,7 @@ const dict = {
   ro: {
     title: 'Harta Sisteme Învățământ',
     entities: 'entități',
-    search: 'Caută…',
+    search: 'Caută...',
     searchAria: 'Caută entități',
     clearSearch: 'Șterge căutarea',
     backToRomania: 'Înapoi la România',
@@ -40,7 +40,7 @@ const dict = {
   en: {
     title: 'Romanian Education Map',
     entities: 'entities',
-    search: 'Search…',
+    search: 'Search...',
     searchAria: 'Search entities',
     clearSearch: 'Clear search',
     backToRomania: 'Back to Romania',

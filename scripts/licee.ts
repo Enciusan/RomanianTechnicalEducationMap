@@ -111,7 +111,7 @@ export async function scrapeLicee(): Promise<Entity[]> {
   })
   // rank nationally by best mate-info ultima medie
   out.filter((e) => e.score).sort((a, b) => b.score! - a.score!).forEach((e, i) => (e.rank = i + 1))
-  if (unmatched.length) console.warn(`[licee] no SIIIR match ${unmatched.length}: ${unmatched.slice(0, 15).join(', ')}${unmatched.length > 15 ? '…' : ''}`)
+  if (unmatched.length) console.warn(`[licee] no SIIIR match ${unmatched.length}: ${unmatched.slice(0, 15).join(', ')}${unmatched.length > 15 ? '...' : ''}`)
   console.log(`[licee] ${out.length} mate-info licee, ${out.filter((e) => e.email).length} with email, ${out.filter((e) => e.rank).length} ranked`)
   return out
 }

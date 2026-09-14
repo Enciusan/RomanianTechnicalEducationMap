@@ -30,7 +30,7 @@ Interactive map of Romania's tech-education ecosystem. A scouting tool for **Sol
 
 ## Stack
 
-Bun · TypeScript · Vite · React 19 · Tailwind v4 · shadcn/ui · d3-geo · motion
+Bun / TypeScript / Vite / React 19 / Tailwind v4 / shadcn/ui / d3-geo / motion
 
 ## Run locally
 

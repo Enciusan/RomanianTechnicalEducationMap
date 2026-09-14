@@ -38,7 +38,7 @@ export function EntityDialog({ entity: e, onClose, onEntity }: Props) {
                   <span className="size-1.5 rounded-full" style={{ background: CATEGORY[e.category].color }} aria-hidden />
                   {t.cat[e.category][0]}
                 </span>
-                {e.rank != null && <span className="glass-pill tabular rounded-full px-2.5 py-1 text-[11px] font-medium">#{e.rank}{e.score != null && ` · ${e.score}`}</span>}
+                {e.rank != null && <span className="glass-pill tabular rounded-full px-2.5 py-1 text-[11px] font-medium">#{e.rank}{e.score != null && ` / ${e.score}`}</span>}
                 {e.tags?.filter((t) => !['ftc', 'mate-info', 'registru-ong'].includes(t)).map((t) => (
                   <span key={t} className="rounded-full bg-white/6 px-2 py-0.5 text-[11px] text-muted-foreground">{t}</span>
                 ))}
@@ -86,7 +86,7 @@ export function EntityDialog({ entity: e, onClose, onEntity }: Props) {
               <a href={e.source_url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-foreground">
                 {t.source} <ExternalLink className="size-3" aria-hidden />
               </a>
-              <span className="tabular">{e.id} · {e.scraped_at.slice(0, 10)}</span>
+              <span className="tabular">{e.id} / {e.scraped_at.slice(0, 10)}</span>
             </div>
           </div>
         )}

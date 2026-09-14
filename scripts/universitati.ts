@@ -52,7 +52,7 @@ export async function scrapeUniversitati(): Promise<Entity[]> {
     const url = td.eq(1).find('a').attr('href')?.trim()
     if (!raw || !SRC.codeRe.test(code)) return
     if (EXCLUDE_RE.test(norm(raw)) || LIQUIDATION_RE.test(raw)) return
-    // "NAME (nota)" / "NAME: nota" / "NAME Specializările…" -> split trailing note
+    // "NAME (nota)" / "NAME: nota" / "NAME Specializările..." -> split trailing note
     const m = raw.match(/^(.+?)(?:\s*\((.+)\)|:\s*(.+)|\s+(Specializ.+))$/)
     const name = m ? m[1].trim() : raw
     const note = m ? (m[2] ?? m[3] ?? m[4])?.trim() : undefined

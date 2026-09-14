@@ -1,25 +1,23 @@
 # Architecture
 
 ```
-┌──────────────────────── scripts/ (Bun + TS) ────────────────────────┐
-│  ftc.ts          JSON API      ─┐                                   │
-│  universitati.ts HTML tables   ─┤                                   │
-│  licee.ts        XLSX + HTML   ─┼─► build.ts ─► geocode.ts ─► sort  │
-│  ong.ts          XLSX          ─┤      (upsert by id)               │
-│  seed.ts         seed/*.json   ─┘                                   │
-└──────────────────────────────────────┬──────────────────────────────┘
-                                       ▼
-                             src/data/data.json  (Entity[])
-                                       │
-┌──────────────────────── src/ (Vite + React) ──────────────────────┐
-│  lib/entities.ts   imports data.json, category meta, county names │
-│  lib/i18n.tsx      RO/EN dictionary + context                     │
-│  App.tsx           state: county, category set, query, selected   │
-│  RomaniaMap.tsx    d3-geo projection, zoom, dots, tooltip         │
-│  GlassBar.tsx      title, search, category chips, language toggle │
-│  EntityList.tsx    grouped list for current scope                 │
-│  EntityDialog.tsx  detail modal                                   │
-└───────────────────────────────────────────────────────────────────┘
+scripts/ (Bun + TypeScript)
+
+  ftc.ts            JSON API       \
+  universitati.ts   HTML tables     |
+  licee.ts          XLSX + HTML     +--> build.ts --> geocode.ts --> sort --> src/data/data.json
+  ong.ts            XLSX            |    (upsert by id)
+  seed.ts           seed/*.json    /
+
+src/ (Vite + React)
+
+  lib/entities.ts   imports data.json, category meta, county names
+  lib/i18n.tsx      RO/EN dictionary + context
+  App.tsx           state: county, category set, query, selected entity
+  RomaniaMap.tsx    d3-geo projection, zoom, dots, tooltip
+  GlassBar.tsx      title, search, category chips, language toggle
+  EntityList.tsx    grouped list for current scope
+  EntityDialog.tsx  detail modal
 ```
 
 ## Design decisions

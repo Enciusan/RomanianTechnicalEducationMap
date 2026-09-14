@@ -16,7 +16,7 @@ It is a read-only static web app. All data is collected by a set of TypeScript s
 | Page | What you'll learn |
 |---|---|
 | [Getting started](getting-started.md) | Run, build, refresh data |
-| [Architecture](architecture.md) | How pieces fit: scrapers → data.json → UI |
+| [Architecture](architecture.md) | How pieces fit: scrapers to data.json to UI |
 | [Data model](data-model.md) | The `Entity` type, IDs, categories |
 | [County nomenclature](counties.md) | ISO codes vs SIRUTA vs SIIIR, why we use each |
 | [Data sources](data-sources.md) | Every URL we read from, verified |

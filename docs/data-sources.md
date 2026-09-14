@@ -18,8 +18,8 @@ All URLs verified in September 2026. Each row in `data.json` links back to its s
 
 - [Nație Prin Educație](https://natieprineducatie.ro/teams/), the official FIRST Tech Challenge partner for Romania.
 - The site is an Angular app backed by a public JSON API (no auth):
-  - `GET /api/teams/public/list?seasonId=<id>` → team id, international number, name, rookie year, school, city.
-  - `GET /api/seasons` → per season, `teamSeasonData[]` with county, contact email, website and social links, lat/lng, registration status.
+  - `GET /api/teams/public/list?seasonId=<id>` returns team id, international number, name, rookie year, school, city.
+  - `GET /api/seasons` returns per season, `teamSeasonData[]` with county, contact email, website and social links, lat/lng, registration status.
 - Season 3 ("Decode", 2025) is used as the full roster (211 teams). Season 4 ("BIOBUZZ", 2026) is still registering.
 
 ## Universities
@@ -44,7 +44,7 @@ Hand-curated: LSAC (București, Iași), ASII Iași, BEST local groups (Bucureșt
 
 - [Registrul Național ONG 2025](https://data.gov.ro/dataset/registrul-national-ong-2025), Ministry of Justice, XLSX of ~125,000 associations.
 - Columns: name, registration number, status, county, locality, address, initial purpose. **No contact data** in the register.
-- We keep active associations whose **name** matches tech/education keywords (robotics, informatics, programming, software, blockchain, hackathon, coding…). Purpose text is too noisy to match on.
+- We keep active associations whose **name** matches tech/education keywords (robotics, informatics, programming, software, blockchain, hackathon, coding, etc.). Purpose text is too noisy to match on.
 
 ## Geocoding
 
