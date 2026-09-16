@@ -1,0 +1,9 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: SolScout
+  structure:
+    - type: space
+      key: docs
+      title: Documentation
+      content:
+        directory: ./docs
