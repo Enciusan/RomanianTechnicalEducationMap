@@ -1,5 +1,6 @@
 import { ArrowLeft, Search, X } from 'lucide-react'
 import { CATEGORIES, CATEGORY, JUDET_NAME, type Category } from '@/lib/entities'
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import { useI18n, type Lang } from '@/lib/i18n'
 
 interface Props {
@@ -65,17 +66,21 @@ export function GlassBar({ query, onQuery, cats, onToggleCat, judet, onJudet, to
         {CATEGORIES.map((c) => {
           const on = cats.has(c)
           return (
-            <button
-              key={c}
-              onClick={() => onToggleCat(c)}
-              data-active={on}
-              aria-pressed={on}
-              className="glass-pill flex h-9 cursor-pointer items-center gap-2 rounded-full px-3 text-[13px] font-medium backdrop-blur-xl"
-              style={{ opacity: on ? 1 : 0.6 }}
-            >
-              <span className="size-2 rounded-full" style={{ background: CATEGORY[c].color, boxShadow: on ? `0 0 8px ${CATEGORY[c].color}` : 'none' }} aria-hidden />
-              {t.cat[c][0]}
-            </button>
+            <Tooltip key={c}>
+              <TooltipTrigger
+                onClick={() => onToggleCat(c)}
+                data-active={on}
+                aria-pressed={on}
+                className="glass-pill flex h-9 cursor-pointer items-center gap-2 rounded-full px-3 text-[13px] font-medium backdrop-blur-xl"
+                style={{ opacity: on ? 1 : 0.6 }}
+              >
+                <span className="size-2 rounded-full" style={{ background: CATEGORY[c].color, boxShadow: on ? `0 0 8px ${CATEGORY[c].color}` : 'none' }} aria-hidden />
+                {t.cat[c][0]}
+              </TooltipTrigger>
+              <TooltipContent side="bottom" className="max-w-[260px] text-left leading-snug">
+                {t.catDesc[c]}
+              </TooltipContent>
+            </Tooltip>
           )
         })}
       </nav>

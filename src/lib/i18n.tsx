@@ -1,11 +1,11 @@
-import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { Category } from '../../scripts/types'
 
 export type Lang = 'ro' | 'en'
 
 const dict = {
   ro: {
-    title: 'Harta Sisteme Învățământ',
+    title: 'Harta Educației Tehnice din România',
     entities: 'entități',
     search: 'Caută...',
     searchAria: 'Caută entități',
@@ -36,9 +36,19 @@ const dict = {
       hub: ['Hubs', 'Hub'],
       ong: ['ONG', 'ONG'],
     } as Record<Category, [string, string]>,
+    catDesc: {
+      universitate: 'Universități cu profil tehnic, ordonate după metaranking-ul național.',
+      facultate: 'Facultăți de informatică, calculatoare și automatică din interiorul universităților.',
+      liceu: 'Licee cu profil matematică-informatică.',
+      centru_excelenta: 'Centre județene de excelență: pregătire pentru olimpiade de informatică și științe.',
+      robotica: 'Echipe de liceu înscrise în FIRST Tech Challenge (FTC) România.',
+      asociatie_studenti: 'Asociații studențești tech și de antreprenoriat (LSAC, BEST, IEEE, LSRS).',
+      hub: 'Hub-uri tech, spații de coworking și comunități care găzduiesc evenimente.',
+      ong: 'ONG-uri din registrul național cu obiect de activitate tech sau educațional.',
+    } as Record<Category, string>,
   },
   en: {
-    title: 'Romanian Education Map',
+    title: 'Romanian Technical Education Map',
     entities: 'entities',
     search: 'Search...',
     searchAria: 'Search entities',
@@ -69,6 +79,16 @@ const dict = {
       hub: ['Hubs', 'Hub'],
       ong: ['NGOs', 'NGO'],
     } as Record<Category, [string, string]>,
+    catDesc: {
+      universitate: 'Universities with a technical profile, ordered by the national metaranking.',
+      facultate: 'Computer science, computing and automation faculties inside universities.',
+      liceu: 'High schools running a math-computer science track.',
+      centru_excelenta: 'County excellence centers: olympiad training in computer science and sciences.',
+      robotica: 'High school teams competing in FIRST Tech Challenge (FTC) Romania.',
+      asociatie_studenti: 'Student tech and entrepreneurship organizations (LSAC, BEST, IEEE, LSRS).',
+      hub: 'Tech hubs, coworking spaces and communities that host events.',
+      ong: 'NGOs from the national register with a tech or education purpose.',
+    } as Record<Category, string>,
   },
 }
 
@@ -90,8 +110,11 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const setLang = useCallback((l: Lang) => {
     set(l)
     try { localStorage.setItem(KEY, l) } catch { /* ignore */ }
-    document.documentElement.lang = l
   }, [])
+  useEffect(() => {
+    document.documentElement.lang = lang
+    document.title = dict[lang].title
+  }, [lang])
   const value = useMemo(() => ({ lang, t: dict[lang], setLang }), [lang, setLang])
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>
 }
