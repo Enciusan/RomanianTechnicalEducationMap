@@ -1,4 +1,4 @@
-# SolScout
+# Romanian Technical Education Map
 
 Interactive map of Romania's tech-education ecosystem. A scouting tool for **Solana Romania** to find universities, CS faculties, high schools, robotics teams, student organisations and hubs worth reaching out to, county by county, with contact details on every entry.
 

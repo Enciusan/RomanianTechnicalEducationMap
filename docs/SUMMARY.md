@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SolScout](README.md)
+* [Romanian Technical Education Map](README.md)
 * [Getting started](getting-started.md)
 * [Architecture](architecture.md)
 * [Data model](data-model.md)

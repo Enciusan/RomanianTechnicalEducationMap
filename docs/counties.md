@@ -1,6 +1,6 @@
 # County nomenclature
 
-Romania has 41 counties (județe) plus Bucharest. Three different code systems show up in public data, and every dataset picks a different one. SolScout normalises all of them to one.
+Romania has 41 counties (județe) plus Bucharest. Three different code systems show up in public data, and every dataset picks a different one. This project normalises all of them to one.
 
 | System | Example (Cluj) | Where it appears |
 |---|---|---|

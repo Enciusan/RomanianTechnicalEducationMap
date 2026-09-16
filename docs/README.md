@@ -1,6 +1,6 @@
-# SolScout
+# Romanian Technical Education Map
 
-SolScout is an interactive map of Romania's technical-education ecosystem, built as a scouting tool for **Solana Romania**. The goal: find the universities, CS faculties, high schools, robotics teams and student communities most likely to produce new builders, and have a contact ready for each one.
+This is an interactive map of Romania's technical-education ecosystem, built as a scouting tool for **Solana Romania**. The goal: find the universities, CS faculties, high schools, robotics teams and student communities most likely to produce new builders, and have a contact ready for each one.
 
 It is a read-only static web app. All data is collected by a set of TypeScript scrapers into a single `data.json`, then rendered client-side on a county map of Romania.
 
