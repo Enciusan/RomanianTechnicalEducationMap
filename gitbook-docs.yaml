@@ -3,7 +3,9 @@ site:
   title: Romanian Technical Education Map
   structure:
     - type: space
-      key: docs
+      key: space-docs
       title: Documentation
+      path: docs
+      default: true
       content:
         directory: ./docs
