@@ -1,6 +1,6 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: SolScout
+  title: Romanian Technical Education Map
   structure:
     - type: space
       key: docs
